@@ -10,15 +10,15 @@ let duit = `*────── 「 DONATE 」 ──────*
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
-├🏧 081351047727 (OVO/Dana/GoPay)
-├📍 https://saweria.co/ilmanhdyt
+├🏧 +62 812-7367-7810 (GoPay)
+├📍 +62 819-5929-3465 (Pulsa XL)
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 
 Arigatou!
 
 Contact person Owner:
-wa.me/6181351047727 (Owner)`
+wa.me/6281273677810 (Owner)`
 let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/ca517a39ce85c8a4c0479.jpg' }}, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
@@ -28,15 +28,15 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/fil
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '🏧 Saweria',
-               url: 'https://saweria.co/ilmanhdyt'
+               displayText: 'Instagram',
+               url: 'https://www.instagram.com/invites/contact/?i=18n050noxcaqr&utm_content=4fkjlpc'
              }
 
            },
                {
              callButton: {
-               displayText: 'Telkomsel',
-               phoneNumber: '+62 813-5104-7727'
+               displayText: 'Xl',
+               phoneNumber: '+62 819-5929-3465'
              }
            },           
                {
